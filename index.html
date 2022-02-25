@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Columns</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        .grid{
+            display: grid;
+            grid-template-columns: 200px auto 200px ;
+            grid-gap: 1rem;
+        }
+        .items{
+            background: #f4f4f4;
+            font-size: 1.3rem;
+            border: #ccc 1px solid;
+            padding: 3rem;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        main{
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            grid-gap: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="items">Item 1</div>
+        <div class="items">Item 2</div>
+        <div class="items">Item 3</div>
+        <div class="items">Item 4</div>
+        <div class="items">Item 5</div>     
+        <div class="items">Item 6</div>
+        <div class="items">Item 7</div>
+        <div class="items">Item 8</div>     
+        <div class="items">Item 9</div>
+        <div class="items">Item 1</div>
+        <div class="items">Item 2</div>
+        <div class="items">Item 3</div>
+        <div class="items">Item 4</div>
+        <div class="items">Item 5</div>     
+        <div class="items">Item 6</div>
+        <div class="items">Item 7</div>
+        <div class="items">Item 8</div>     
+        <div class="items">Item 9</div>
+
+    </div>
+
+    <main>
+        <section>
+            <h3>Welcome to my site</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi illo magnam autem doloribus voluptatum! Assumenda animi voluptates sequi quia beatae? Dolorum nulla cupiditate recusandae impedit quibusdam facilis nisi placeat repudiandae?</p>
+
+        </section>
+        <aside>
+            <h3>Hello</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, omnis?</p>
+
+        </aside>
+    </main>
+</body>
+</html>
